@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="header-title">Inline Form</h4>
+
+                <p class="sub-header">
+                    Use the <code>.form-inline</code> class to display a series of labels, form controls, and buttons on a single horizontal row. Form controls within inline forms vary slightly from their default states. Controls only appear inline in viewports that are at least 576px wide to account for narrow viewports on mobile devices.
+                </p>
+
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="staticEmail2" class="sr-only">Email</label>
+                        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+                    </div>
+                    <div class="form-group mx-sm-3">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary waves-effect waves-light">Confirm identity</button>
+                </form>
+
+                <h6 class="font-13 mt-3">Auto-sizing</h6>
+
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInput">Name</label>
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                        </div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="custom-control custom-checkbox mb-2">
+                                <input type="checkbox" class="custom-control-input" id="autoSizingCheck">
+                                <label class="custom-control-label" for="autoSizingCheck">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary waves-effect waves-light mb-2">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div> <!-- end card-body -->
+        </div> <!-- end card -->
+    </div> <!-- end col -->
+</div>

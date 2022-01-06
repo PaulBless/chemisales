@@ -1,0 +1,67 @@
+.dataTables_length .nice-select {
+  display: none !important;
+}
+
+select[name="tickets-table_length"] {
+  display: unset !important;
+}
+
+.doubleUnderline {
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
+}
+
+.btn-info-color {
+  color: #1c8238 !important;
+}
+
+.btn-danger-color {
+  color: #f0643b !important;
+}
+
+.btn-secondary-color {
+  color: #14324d !important;
+}
+
+.btn-primary-color {
+  color: #5089de !important;
+}
+
+.left-side-menu {
+  background-color: #14324d !important;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+}
+
+.logo-box {
+  background-color: #ffffff;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #e2fae8;
+  border-color: #1c8238;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #23364a;
+  border-color: #14324d;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #1c8238;
+  border-color: #1c8238;
+}
+
+.btn-info,
+.btn-info:hover {
+  color: #fff;
+  background-color: #1c8238;
+  border-color: #1c8238;
+}
